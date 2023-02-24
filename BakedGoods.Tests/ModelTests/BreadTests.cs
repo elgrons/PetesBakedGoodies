@@ -30,11 +30,11 @@ namespace BakedGoods.Tests
       public void OrderTotal_DetermineBreadOrderTotal_Int()
       {
       //Arrange
-      int breadNum = 1;
+      int breadNum = 3;
       Bread newBaguette = new Bread(breadNum);
       int total = breadNum * 5;
       //Act
-      int breadTotal = newBaguette.BreadOrderTotal();
+      int breadTotal = newBaguette.BreadOrderTotal(breadNum);
       //Assert
       Assert.AreEqual(total, breadTotal);
       }
