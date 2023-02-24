@@ -1,7 +1,7 @@
 using System;
-using ProjectName.Models;
+using BakedGoods.Models;
 
-namespace ProjectName
+namespace BakedGoods
 {
   class Program
   {

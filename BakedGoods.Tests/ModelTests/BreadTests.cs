@@ -1,22 +1,22 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using BakedGoods.Models;
 using System.Collections.Generic; 
 using System;
 
-namespace ProjectName.Tests
+namespace BakedGoods.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class BreadTests
   {
   [TestMethod]
     public void ClassNameConstructor_CreatesInstanceOfClassName_ClassName()
     {
       // Arrange
-      ClassName newClass = new ClassName(2, 3, 8);
+      Bread newBaguette = new Bread(2, 3, 8);
       // Act
       //not needed here
       // Assert
-    Assert.AreEqual(typeof(ClassName), newClass.GetType());
+    Assert.AreEqual(typeof(Bread), newBaguette.GetType());
     }
   }
 }

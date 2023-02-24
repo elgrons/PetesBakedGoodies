@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System;
 
-namespace ProjectName.Models
+namespace BakedGoods.Models
 {
-  public class ClassName
+  public class Bread
   {
     private int _side1;
     public int Side1
@@ -13,9 +13,9 @@ namespace ProjectName.Models
     }
     public int Side2 { get; set; }
     private int _side3;
-    private static List<ClassName> _instances = new List<ClassName> {};
+    private static List<Bread> _instances = new List<Bread> {};
 
-    public ClassName(int length1, int length2, int length3)
+    public Bread(int length1, int length2, int length3)
     {
       _side1 = length1;
       Side2 = length2;
