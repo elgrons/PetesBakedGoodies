@@ -9,13 +9,9 @@ namespace BakedGoods.Tests
   public class BreadTests
   {
   [TestMethod]
-    public void ClassNameConstructor_CreatesInstanceOfClassName_ClassName()
+    public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
-      // Arrange
-      Bread newBaguette = new Bread(2, 3, 8);
-      // Act
-      //not needed here
-      // Assert
+      Bread newBaguette = new Bread();
     Assert.AreEqual(typeof(Bread), newBaguette.GetType());
     }
   }
