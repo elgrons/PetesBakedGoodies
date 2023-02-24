@@ -1,4 +1,4 @@
-# 🥖_Pete's Baked Goodies_🥖
+# 🥖Pete's Baked Goodies🥖
 
 #### By Eliot Gronstal
 
@@ -6,9 +6,9 @@
 
 ## Technologies Used
 
-* 🥐_C#_
-* 🥐_.NET_
-* 🥐_MSTest_
+* 🥐 _C#_
+* 🥐 _.NET_
+* 🥐 _MSTest_
 
 ## Description
 
@@ -22,17 +22,17 @@ _A C# console application for a bakery that includes custom classes, namespaces,
 
 ## Setup/Installation Requirements
 
-* 🍩_Clone this repo._
-* 🍩_Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "PetesBakedGoodies"._
-* 🍩_In the command line, run the command ``dotnet run`` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
-* 🍩_Optionally, you can run ``dotnet build`` to compile this console app without running it._
+* 🍩 _Clone this repo._
+* 🍩 _Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "PetesBakedGoodies"._
+* 🍩 _In the command line, run the command ``dotnet run`` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
+* 🍩 _Optionally, you can run ``dotnet build`` to compile this console app without running it._
 
 
 ## Known Bugs
 
-* 🥖_Any known issues_
+* 🥖 _Any known issues_
 
-* 🥖_Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)_
+* 🥖 _Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)_
 
 ## License
 
