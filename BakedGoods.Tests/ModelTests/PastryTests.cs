@@ -11,6 +11,7 @@ namespace BakedGoods.Tests
     [TestMethod]
     public void PastryConstructor_CreatesInstanceOfPastry_Pastry()
     {
+      int pastryNum = 1;
       Pastry newDonut = new Pastry(pastryNum);
       Assert.AreEqual(typeof(Pastry), newDonut.GetType());
     }
