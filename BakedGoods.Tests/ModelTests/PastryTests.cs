@@ -26,5 +26,17 @@ namespace BakedGoods.Tests
       //Assert 
       Assert.AreEqual(pastryNum, newDonut.PastryOrder);
     }
+    [TestMethod]
+      public void OrderTotal_DeterminePastryOrderTotal_Int()
+      {
+      //Arrange
+      int pastryNum = 2;
+      Pastry newDonut = new Pastry(pastryNum);
+      int pTotal = pastryNum * 2;
+      //Act
+      int pastryTotal = newDonut.PastryOrderTotal(pastryNum);
+      //Assert
+      Assert.AreEqual(pTotal, pastryTotal);
+      }
   }
 }
