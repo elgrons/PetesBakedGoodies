@@ -1,20 +1,20 @@
 * Code includes two custom classes and uses namespaces. (Bread & Pastry) DONE
-* Console application works correctly.
-* Application correctly uses auto-implemented properties. (Get Set)
+* A user should be able to specify how many loaves of Bread and how many Pastries 
+they'd like. DONE
+int BreadOrder () Method w/ get set
+* Console application works correctly. SO FAR SO GOOD
+* Application correctly uses auto-implemented properties. (Get Set) DONE
+
 * Classes should include methods for determining the price of an order.
-
-* A user should be able to specify how many loaves of Bread and how many Pastries they'd like.
-
-placeOrder() Method w/ get set
-get set for the user input amount?
-
 * The application will return the total cost of the order.
-
 orderTotal() Method displays the total and applies the discount?
+divides the total number by 3
+and applies discount of x free
 
 * Pete offers the following deal for Bread: Buy 2, get 1 free. A single loaf costs $5, then Every 3rd loaf of bread is free:
 * Pierre offers the following deal for Pastry: Buy 3, get 1 free. A single pastry costs $2, then Every 4th pastry is free:
 
+swith case:
 if order total = 3 price = 2
 if order total = 5 price = 3
 

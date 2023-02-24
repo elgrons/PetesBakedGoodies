@@ -10,5 +10,10 @@ namespace BakedGoods.Models
     {
       PastryOrder = pastryNum;
     }
+    public int PastryOrderTotal(int pastryNum)
+    {
+      int total = pastryNum * 2;
+      return total;
+    }
   }
 }

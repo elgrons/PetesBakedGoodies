@@ -22,9 +22,13 @@ namespace BakedGoods
       Pastry pastry = new Pastry(pastryNum);
       Console.WriteLine($"You have ordered {bread.BreadOrder} breads.");  
       Console.WriteLine($"You have ordered {pastry.PastryOrder} pastries.");  
-      Console.WriteLine("Your order total is: $");
-      Console.WriteLine("Thanks for visiting Pete's Baked Goodies! Enjoy your goodies!");
-    }
+      int breadTotal = bread.BreadOrderTotal(breadNum);
+      int pastryTotal = pastry.PastryOrderTotal(pastryNum);
 
+
+      Console.WriteLine("Your Bread order total is: $" + breadTotal + " and your Pastry order total is: $" + pastryTotal + ".");
+      Console.WriteLine("Thanks for visiting Pete's Baked Goodies! Enjoy your fresh baked goodies and we'll see you tomorrow!");
+      
+    }
   }
 }

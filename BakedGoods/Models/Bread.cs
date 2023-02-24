@@ -10,5 +10,10 @@ namespace BakedGoods.Models
     {
       BreadOrder = breadNum;
     }
+    public int BreadOrderTotal(int breadNum)
+    {
+      int total = breadNum * 5;
+      return total;
+    }
   }
 }
