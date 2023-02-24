@@ -1,5 +1,6 @@
 using System;
 using BakedGoods.Models;
+using System.Threading;
 
 namespace BakedGoods
 {
@@ -38,6 +39,7 @@ namespace BakedGoods
       string userInput = Console.ReadLine();  
       if (userInput == "yes")
       {
+        Main();
         BreadOrderAddOn(breadNum2);
         Console.WriteLine("*Please enter a number for how many additional loaves of bread you would like to order:");
         string breadNumber2 = Console.ReadLine(); 
