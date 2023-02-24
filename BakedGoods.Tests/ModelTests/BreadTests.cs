@@ -11,19 +11,20 @@ namespace BakedGoods.Tests
   [TestMethod]
     public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
-      Bread newBaguette = new Bread();
-    Assert.AreEqual(typeof(Bread), newBaguette.GetType());
+      int breadNum = 1;
+      Bread newBaguette = new Bread(breadNum);
+      Assert.AreEqual(typeof(Bread), newBaguette.GetType());
     }
-        [TestMethod]
-    public void GetBreadOrder_ReturnBreadOrder_Int()
+  [TestMethod]
+    public void GetBreadOrder_SetValueOfBreadOrder_Int()
     {
       //Arrange
-      int BreadOrder = 1;
-      Bread newBaguette = new Bread();
+      int breadNum = 1;
+      Bread newBaguette = new Bread(breadNum);
       //Act
-      int result = newBaguette.BreadOrder;
+      newBaguette.BreadOrder = breadNum;
       //Assert 
-      Assert.AreEqual(BreadOrder, result);
+      Assert.AreEqual(breadNum, newBaguette.BreadOrder);
     }
   }
 }
