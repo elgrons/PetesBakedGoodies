@@ -5,37 +5,68 @@
 
 * A user should be able to specify how many loaves of Bread and how many Pastries they'd like.
 
-placeOrder() Method
+placeOrder() Method w/ get set
+get set for the user input amount?
 
 * The application will return the total cost of the order.
 
-orderTotal() Method
+orderTotal() Method displays the total and applies the discount?
 
 * Pete offers the following deal for Bread: Buy 2, get 1 free. A single loaf costs $5, then Every 3rd loaf of bread is free:
 * Pierre offers the following deal for Pastry: Buy 3, get 1 free. A single pastry costs $2, then Every 4th pastry is free:
 
-switch case for pricing?
-for loop for each baked good?
+if order total = 3 price = 2
+if order total = 5 price = 3
+
+switch case for speciality pricing?
+for loop for each baked good that applies a percentage discount off the total? 
+for loop that counts every third as a second item?
 if else statement requires a else to work in c#
 
 bread 1 = $5
+take in the amount of loaves ordered
+apply the discount
+give the price
 
 pastry 1 = $2
+take in the amount of pastries ordered
+apply the discount
+give the price
 
 
 BREAD:
 two loaves costs $10
-three loaves cost $10
+three loaves cost $10 3.33% off
 four loaves costs $15
 five loaves cost $20
-six loaves costs $20
+six loaves costs $20  
+
+float discount = 3.33F % off and would need to round up to the decimal point with math.round method (do I need to use floating points for 3.33F) 
+
+would modulo work? % remainder of dividing by 3.33F
+
+change the price to $0 for every third loop?
+
+apply discount at order total? get full price and apply discount in separate method?
+
+
+
 seven loaves cost $25
 
 PASTRIES:
 two pastries costs $4
-three pastries costs $6
+three pastries costs $6 
 four pastries costs $6
-five pastries costs $8
+five pastries costs $8 
 six pastries costs $10
 seven pastries costs $12
 eight pastries costs $12
+
+the percentages here aren't as easy to work with, so perhaps a loop would be more direct
+
+Let Marked Price of one item be 100
+M.P. of 2+3 items = 500
+Actually paid amount = 200
+Discount = 300
+Discount Percentage = (300/500)*100 % = 60%
+So you actually get 60% discount
