@@ -32,7 +32,21 @@ namespace BakedGoods.Tests
       //Arrange
       int pastryNum = 2;
       Pastry newDonut = new Pastry(pastryNum);
-      int pTotal = pastryNum * 2;
+      int greatDeal = pastryNum /3;
+      int pTotal = (pastryNum - greatDeal) * 2;
+      //Act
+      int pastryTotal = newDonut.PastryOrderTotal(pastryNum);
+      //Assert
+      Assert.AreEqual(pTotal, pastryTotal);
+      }
+        [TestMethod]
+      public void OrderTotal_DeterminePastryTotalWithBuyTwoGetOneFree_Int()
+      {
+      //Arrange
+      int pastryNum = 3;
+      Pastry newDonut = new Pastry(pastryNum);
+      int greatDeal = pastryNum /3;
+      int pTotal = (pastryNum - greatDeal) * 2;
       //Act
       int pastryTotal = newDonut.PastryOrderTotal(pastryNum);
       //Assert
