@@ -6,6 +6,7 @@ namespace BakedGoods.Models
   public class Bread
   {   
     public int BreadOrder { get; set; }
+    public int BreadOrderAddOn { get; set; }
     public Bread(int breadNum)
     {
       BreadOrder = breadNum;
@@ -15,6 +16,12 @@ namespace BakedGoods.Models
       int buyTwoGetOne = breadNum /3;
       int total = (breadNum - buyTwoGetOne) * 5;
       return total;
+    }
+      public int BreadOrderAddOn(int breadNum2)
+    {
+      BreadOrder2 = breadNum2;
+      int updatedTotal = BreadOrder2.BreadOrderAddOn + BreadOrder.BreadOrderTotal;
+      return updatedTotal;
     }
   }
 }
