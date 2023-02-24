@@ -29,7 +29,18 @@ namespace BakedGoods
       Console.WriteLine("");
       Console.WriteLine("      Your Bread order total is: $" + breadTotal + " and your Pastry order total is: $" + pastryTotal + ".");
       Console.WriteLine("");
-      Console.WriteLine("      Thanks for visiting Pete's Baked Goodies! Enjoy your fresh baked goodies and we'll see you tomorrow!");
+      Console.WriteLine($"Would you like to make changes to your current order?");
+      Console.WriteLine("Enter 'yes' to proceed, or 'no' to finish ordering.");
+      string userInput = Console.ReadLine();  
+      if (userInput == "yes")
+      {
+        Main();
+      }
+      else
+      {
+      Console.WriteLine(""); 
+      Console.WriteLine("<3<3<3Thanks for visiting Pete's Baked Goodies! Enjoy your fresh baked goodies and we'll see you tomorrow!<3<3<3");
     }
   }
+}
 }
