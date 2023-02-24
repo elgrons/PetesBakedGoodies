@@ -14,5 +14,16 @@ namespace BakedGoods.Tests
       Bread newBaguette = new Bread();
     Assert.AreEqual(typeof(Bread), newBaguette.GetType());
     }
+        [TestMethod]
+    public void GetBreadOrder_ReturnBreadOrder_Int()
+    {
+      //Arrange
+      int BreadOrder = 1;
+      Bread newBaguette = new Bread();
+      //Act
+      int result = newBaguette.BreadOrder;
+      //Assert 
+      Assert.AreEqual(BreadOrder, result);
+    }
   }
 }
