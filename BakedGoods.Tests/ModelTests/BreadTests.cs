@@ -38,5 +38,18 @@ namespace BakedGoods.Tests
       //Assert
       Assert.AreEqual(total, breadTotal);
       }
+    [TestMethod]
+      public void OrderTotal_DetermineBreadOrderTotalWithBuyTwoGetOneFreeDiscount_Int()
+      {
+      //Arrange
+      int breadNum = 3;
+      Bread newBaguette = new Bread(breadNum);
+      int discount = breadNum /3;
+      int total = (breadNum - discount) * 5;
+      //Act
+      int breadTotal = newBaguette.BreadOrderTotal(breadNum);
+      //Assert
+      Assert.AreEqual(total, breadTotal);
+      }
   }
 }
