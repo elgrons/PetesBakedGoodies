@@ -1,0 +1,41 @@
+* Code includes two custom classes and uses namespaces. (Bread & Pastry) DONE
+* Console application works correctly.
+* Application correctly uses auto-implemented properties. (Get Set)
+* Classes should include methods for determining the price of an order.
+
+* A user should be able to specify how many loaves of Bread and how many Pastries they'd like.
+
+placeOrder() Method
+
+* The application will return the total cost of the order.
+
+orderTotal() Method
+
+* Pete offers the following deal for Bread: Buy 2, get 1 free. A single loaf costs $5, then Every 3rd loaf of bread is free:
+* Pierre offers the following deal for Pastry: Buy 3, get 1 free. A single pastry costs $2, then Every 4th pastry is free:
+
+switch case for pricing?
+for loop for each baked good?
+if else statement requires a else to work in c#
+
+bread 1 = $5
+
+pastry 1 = $2
+
+
+BREAD:
+two loaves costs $10
+three loaves cost $10
+four loaves costs $15
+five loaves cost $20
+six loaves costs $20
+seven loaves cost $25
+
+PASTRIES:
+two pastries costs $4
+three pastries costs $6
+four pastries costs $6
+five pastries costs $8
+six pastries costs $10
+seven pastries costs $12
+eight pastries costs $12

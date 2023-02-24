@@ -16,7 +16,7 @@ _A C# console application for a bakery that includes custom classes, namespaces,
 
 * 🍞When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread and Pastry.
 
-* 🍞A user should be able to specify how many loaves of Bread and how many Pastrys they'd like, including running separate specials on pastries and bread.
+* 🍞A user should be able to specify how many loaves of Bread and how many Pastries they'd like, including running separate specials on pastries and bread.
 
 * 🍞The application will return the total cost of the order.
 
@@ -30,7 +30,7 @@ _A C# console application for a bakery that includes custom classes, namespaces,
 
 ## Known Bugs
 
-* 🥖 _Any known issues_
+* 🥖 _No known issues_
 
 * 🥖 _Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)_
 
