@@ -32,7 +32,7 @@ namespace BakedGoods.Tests
       //Arrange
       int pastryNum = 2;
       Pastry newDonut = new Pastry(pastryNum);
-      int greatDeal = pastryNum /3;
+      int greatDeal = pastryNum /4;
       int pTotal = (pastryNum - greatDeal) * 2;
       //Act
       int pastryTotal = newDonut.PastryOrderTotal(pastryNum);
@@ -45,7 +45,7 @@ namespace BakedGoods.Tests
       //Arrange
       int pastryNum = 3;
       Pastry newDonut = new Pastry(pastryNum);
-      int greatDeal = pastryNum /3;
+      int greatDeal = pastryNum /4;
       int pTotal = (pastryNum - greatDeal) * 2;
       //Act
       int pastryTotal = newDonut.PastryOrderTotal(pastryNum);

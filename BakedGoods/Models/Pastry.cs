@@ -12,7 +12,8 @@ namespace BakedGoods.Models
     }
     public int PastryOrderTotal(int pastryNum)
     {
-      int total = pastryNum * 2;
+      int buyTwoGetOne = pastryNum /4;
+      int total = (pastryNum - buyTwoGetOne) * 2;
       return total;
     }
   }

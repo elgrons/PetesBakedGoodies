@@ -30,7 +30,7 @@ _A C# console application for a bakery that includes custom classes, namespaces,
 
 ## Known Bugs
 
-* 🥖 _No known issues_
+* 🥖 _A whole number must be entered for the app to work. If a letter or decimal number is input the app will quit._
 
 * 🥖 _Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)_
 

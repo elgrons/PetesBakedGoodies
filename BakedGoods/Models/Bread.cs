@@ -12,7 +12,8 @@ namespace BakedGoods.Models
     }
     public int BreadOrderTotal(int breadNum)
     {
-      int total = breadNum * 5;
+      int buyTwoGetOne = breadNum /3;
+      int total = (breadNum - buyTwoGetOne) * 5;
       return total;
     }
   }
