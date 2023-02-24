@@ -26,5 +26,17 @@ namespace BakedGoods.Tests
       //Assert 
       Assert.AreEqual(breadNum, newBaguette.BreadOrder);
     }
+      [TestMethod]
+      public void OrderTotal_DetermineBreadOrderTotal_Int()
+      {
+      //Arrange
+      int breadNum = 1;
+      Bread newBaguette = new Bread(breadNum);
+      int total = breadNum * 5;
+      //Act
+      int breadTotal = newBaguette.BreadOrderTotal();
+      //Assert
+      Assert.AreEqual(total, breadTotal);
+      }
   }
 }
