@@ -18,9 +18,11 @@ namespace BakedGoods
       string pastryNumber = Console.ReadLine();
       int breadNum = int.Parse(breadNumber);
       Bread bread = new Bread(breadNum);
+      int pastryNum = int.Parse(pastryNumber);
+      Pastry pastry = new Pastry(pastryNum);
       Console.WriteLine($"You have ordered {bread.BreadOrder} breads.");  
-      int pastryOrder = int.Parse(pastryNumber); 
-      Console.WriteLine("Your order total is:");
+      Console.WriteLine($"You have ordered {pastry.PastryOrder} pastries.");  
+      Console.WriteLine("Your order total is: $");
       Console.WriteLine("Thanks for visiting Pete's Baked Goodies! Enjoy your goodies!");
     }
 
