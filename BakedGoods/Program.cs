@@ -9,7 +9,7 @@ namespace BakedGoods
     static void Main()
     {
       Console.WriteLine("");
-      Console.WriteLine("      ~~~~~Welcome to Pete's Baked Goodies!~~~~~");
+      Console.WriteLine("          Welcome to Pete's Baked Goodies!");
       Console.WriteLine("   The price of a single loaf of bread is $5 and the price for a single pastry is $2.");
       Console.WriteLine("");
       Console.WriteLine("   ~~But wait! Pete has a special DEAL for you today!~~          ");
@@ -30,26 +30,29 @@ namespace BakedGoods
       Console.WriteLine("");
       Console.WriteLine("      Your Bread order total is: $" + breadTotal + " and your Pastry order total is: $" + pastryTotal + ".");
       Console.WriteLine("");
+      Console.WriteLine(""); 
+      Console.WriteLine("<3<3<3Thanks for visiting Pete's Baked Goodies! Enjoy your fresh baked goodies and we'll see you tomorrow!<3<3<3");
+      Console.WriteLine("");
     }
     
-    public void BreadOrderAddOn(Bread bread)
-    {
-      Console.WriteLine($"Would you like to make changes to your current order?");
-      Console.WriteLine("Enter 'yes' to proceed, or 'no' to finish ordering.");
-      string userInput = Console.ReadLine();  
-      if (userInput == "yes")
-      {
-        Main();
-        BreadOrderAddOn(breadNum2);
-        Console.WriteLine("*Please enter a number for how many additional loaves of bread you would like to order:");
-        string breadNumber2 = Console.ReadLine(); 
-
-      }
-      else
-      {
-        Console.WriteLine(""); 
-        Console.WriteLine("<3<3<3Thanks for visiting Pete's Baked Goodies! Enjoy your fresh baked goodies and we'll see you tomorrow!<3<3<3");
-      }
+    // public void BreadOrderAddOn(Bread bread)
+    // {
+    //   Console.WriteLine($"Would you like to make changes to your current order?");
+    //   Console.WriteLine("Enter 'yes' to proceed, or 'no' to finish ordering.");
+    //   string userInput = Console.ReadLine();  
+    //   if (userInput == "yes")
+    //   {
+    //     Main();
+    //     Console.WriteLine("*Please enter a number for how many additional loaves of bread you would like to order:");
+    //     string breadNumber2 = Console.ReadLine();
+    //     int breadNum2 = int.Parse(breadNumber2);
+    //     int updatedBreadTotal = bread.BreadOrderUpdate(breadNum2);;
+    //     Console.WriteLine("      Your Updated Bread order total is: $:" + bread.BreadOrderAddOn);
+    //   }
+    //   else
+    //   {
+    //     Console.WriteLine(""); 
+    //     Console.WriteLine("<3<3<3Thanks for visiting Pete's Baked Goodies! Enjoy your fresh baked goodies and we'll see you tomorrow!<3<3<3");
+    //   }
     }
   }
-}

@@ -53,5 +53,19 @@ namespace BakedGoods.Tests
       //Assert
       Assert.AreEqual(total, breadTotal);
       }
+      // [TestMethod]
+      // public void BreadOrderAddOn_AddMoreBreadToCurrentOrder_Int()
+      // {
+      // //Arrange
+      // int breadNum = 3;
+      // Bread newBaguette = new Bread(breadNum);
+      // int discount = breadNum /3;
+      // int total = (breadNum - discount) * 5;
+      // int breadTotal = newBaguette.BreadOrderTotal(breadNum);
+      // //Act
+      // int updateBreadTotal = newBaguette.BreadOrderUpdate(breadNum2);
+      // //Assert
+      // Assert.AreEqual(newBaguette.BreadOrderUpdate(breadNum2), updateBreadTotal);
+      // }
   }
 }

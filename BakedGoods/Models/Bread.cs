@@ -10,7 +10,6 @@ namespace BakedGoods.Models
     public Bread(int breadNum)
     {
       BreadOrder = breadNum;
-      UpdatedOrder = 
     }
     public int BreadOrderTotal(int breadNum)
     {
@@ -18,11 +17,11 @@ namespace BakedGoods.Models
       int total = (breadNum - buyTwoGetOne) * 5;
       return total;
     }
-      public static int BreadOrderAddOn()
-    {
-      BreadOrder2 = breadNum2;
-      int updatedTotal = BreadOrder2.BreadOrderAddOn + BreadOrder.BreadOrderTotal;
-      return updatedTotal;
-    }
+    //   public static int BreadOrderUpdate(int breadNum2)
+    // {
+    //   BreadOrderAddOn = breadNum2;
+    //   int updatedTotal = Bread.BreadOrderAddOn + BreadOrderTotal();
+    //   return updatedTotal;
+    // }
   }
 }
