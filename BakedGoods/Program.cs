@@ -13,7 +13,7 @@ namespace BakedGoods
       Console.WriteLine("   The price of a single loaf of bread is $5 and the price for a single pastry is $2.");
       Console.WriteLine("");
       Console.WriteLine("   ~~But wait! Pete has a special DEAL for you today!~~          ");
-      Console.WriteLine("   ***Bread is Buy 2, get 1 free and Pastry is Buy 3, get 1 free.*** ");
+      Console.WriteLine("   ***Bread is Buy 2, get 1 free and Pastry is Buy 3, get 1 free. Discount applied at checkout.*** ");
       Console.WriteLine("");
       Console.WriteLine("*Please enter a number for how many loaves of bread you would like to order:");
       string breadNumber = Console.ReadLine(); 
