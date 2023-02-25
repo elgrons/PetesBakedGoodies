@@ -6,7 +6,7 @@ namespace BakedGoods.Models
   public class Bread
   {   
     public int BreadOrder { get; set; }
-    public int BreadOrderAddOn { get; set; }
+    // public int BreadOrderAddOn { get; set; }
     public Bread(int breadNum)
     {
       BreadOrder = breadNum;
