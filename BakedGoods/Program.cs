@@ -9,7 +9,12 @@ namespace BakedGoods
     static void Main()
     {
       Console.WriteLine("");
-      Console.WriteLine("*~*~*~*~*Welcome to Pete's Baked Goodies!*~*~*~*~*");
+      string text = @"            o                                             
+      _|_ _ / ,     |)  _, |)  _ _|      _, _  _  _|   ,  
+  |/\|/| |/  / \_   |/\/ | |/)|// |     / |/ \/ \/ |  / \_
+  |_/|_|_|_/  \/     \/\/|_| \|_\/|_/   \/|\_/\_/\/|_/ \/ 
+  (|                                      (|               "; Console. WriteLine(text);
+      Console.WriteLine("Welcome to Pete's Baked Goods!");
       Console.WriteLine("The price of a single loaf of bread is $5 and the price for a single pastry is $2.");
       Console.WriteLine("");
       Console.WriteLine("~~But wait! Pete has a special DEAL for you today!~~          ");
@@ -32,8 +37,13 @@ namespace BakedGoods
       Console.WriteLine("Your Bread order total is: $" + breadTotal + " and your Pastry order total is: $" + pastryTotal + ".");
       Console.WriteLine("*~*~*~*~**~*~*~*~**~*~*~*~**~*~*~*~*");
       Console.WriteLine(""); 
-      Console.WriteLine("<3<3<3Thanks for visiting Pete's Baked Goodies! Enjoy your fresh baked goodies and we'll see you tomorrow!<3<3<3");
+      Console.WriteLine("Thanks for visiting Pete's Baked Goodies! Enjoy your fresh baked goodies and we'll see you tomorrow!");
       Console.WriteLine("");
+      string thankYouText = @"                                      
+    _|_|)   _,       |)          _      |
+    | |/\ / |  /|/| |/)    |  |/ \|  | |
+    |_|  |\/|_/ | |_| \/    \/|\_/ \/|_o
+                            (|         "; Console. WriteLine(thankYouText);
     }
     
     // public void BreadOrderAddOn(Bread bread)
