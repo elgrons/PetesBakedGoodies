@@ -23,10 +23,15 @@ _A C# console application for a bakery that includes custom classes, namespaces,
 ## Setup/Installation Requirements
 
 * 🍩 _Clone this repo._
-* 🍩 _Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "PetesBakedGoodies"._
+* 🍩 _Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "PetesBakedGoodies.Solution"._
 * 🍩 _In the command line, run the command ``dotnet run`` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
 * 🍩 _Optionally, you can run ``dotnet build`` to compile this console app without running it._
 
+## Test Instructions
+
+*🥐 _Using a shell program, navigate from the root directory, "PetesBakedGoodies.Solution," to the "BakedGoods.Tests" directory._
+*🥐 _Once in the "BakedGoods.Tests" directory, type into the command line: ``dotnet restore``_
+*🥐 _After the restore process is finished, type into the command line: ``dotnet test``. This will run all written tests and display the results in the console._
 
 ## Known Bugs
 
